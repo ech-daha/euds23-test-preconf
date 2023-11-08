@@ -6,13 +6,6 @@ const map = new Map({
   basemap: "osm/blueprint",
 })
 
-// const mapView = new MapView({
-//   map: map,
-//   center: [13.4, 52.5],
-//   zoom: 5,
-//   container: 'viewDiv'
-// })
-
 const sceneView = new SceneView({
   map: map,
   center: [13.4, 52.5],
